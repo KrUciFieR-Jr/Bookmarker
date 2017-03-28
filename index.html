@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title> Site BookMarker</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+  </head>
+
+  <body onload="fetchBookmarks()">
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+         
+        </nav>
+        <h3 class="text-muted">BookMarker</h3>
+      </div>
+ 
+      <div class="jumbotron">
+        <h2><img src="bookmarks-icon-3.png">Bookmark Your Favourite Sites !!!</h2>
+        <form id="myform">
+        <div class="form-group">
+          <label>Site Names</label>
+          <input type="text" class="form-control" id="site-name" placeholder="For e.g Google">
+          <label>Site Url</label>
+          <input type="text" class="form-control" id="site-url" placeholder="For e.g https://www.google.com">
+        </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+
+
+        </form>
+      </div>
+
+      <div class="row marketing">
+        <div class="col-lg-12">
+        <div id="results"></div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>&copy; 2017 KrUciFieR_Jr</p>
+      </footer>
+
+    </div> <!-- /container -->
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+<script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
